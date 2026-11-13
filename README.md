@@ -1,6 +1,6 @@
 # Sistem Pakar Pemilahan Sampah Rumah Tangga
 
-## 1. Identitas
+## 1. Identitass
 - **Nama:** Asmaul Husnah
 - **NIM:** F1D02510106
 
