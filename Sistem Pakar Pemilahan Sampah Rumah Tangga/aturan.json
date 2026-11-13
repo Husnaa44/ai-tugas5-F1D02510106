@@ -1,0 +1,50 @@
+{
+  "judul": "Sistem Pakar Pemilahan Sampah Rumah Tangga",
+  "batas": "Aturan diambil dari regulasi Permen LHK No. 14 Tahun 2021 dan poster edukasi Dinas PUPRKIM Provinsi Bali. Sistem ini hanya untuk membantu pemilahan awal sampah skala rumah tangga (organik, anorganik, B3, dan residu), bukan keputusan akhir untuk limbah industri atau medis.",
+  "sumber": {
+    "S1": "Peraturan Menteri LHK Nomor 14 Tahun 2021 tentang Pengelolaan Sampah pada Bank Sampah, Kementerian Lingkungan Hidup dan Kehutanan RI, https://peraturan.bpk.go.id/Details/185741/permen-lhk-no-14-tahun-2021, diakses 13 Nov 2026",
+    "S2": "Pilah Sampah Organik, Anorganik, dan Residu, Dinas PUPRKIM Provinsi Bali, https://dispuprkim.baliprov.go.id/posterpilahsampah/, diakses 13 Nov 2026"
+  },
+  "aturan": [
+    {
+      "id": "R1",
+      "jika": [
+        "sisa makanan atau sayuran",
+        "daun kering atau ranting"
+      ],
+      "mode": "atau",
+      "maka": "Sampah Organik (Wadah Hijau - Bisa Dikomposkan)",
+      "sumber": "S2"
+    },
+    {
+      "id": "R2",
+      "jika": [
+        "botol atau kemasan plastik bersih",
+        "kertas kardus atau kaleng"
+      ],
+      "mode": "atau",
+      "maka": "Sampah Anorganik (Wadah Kuning - Setor Bank Sampah)",
+      "sumber": "S1"
+    },
+    {
+      "id": "R3",
+      "jika": [
+        "baterai bekas atau lampu neon",
+        "kaleng aerosol atau pembersih kimia"
+      ],
+      "mode": "atau",
+      "maka": "Sampah B3 Rumah Tangga (Wadah Merah - Penanganan Khusus)",
+      "sumber": "S1"
+    },
+    {
+      "id": "R4",
+      "jika": [
+        "popok sekali pakai atau pembalut",
+        "tisu bekas atau puntung rokok"
+      ],
+      "mode": "atau",
+      "maka": "Sampah Residu (Wadah Abu-abu - Angkut ke TPA)",
+      "sumber": "S2"
+    }
+  ]
+}
