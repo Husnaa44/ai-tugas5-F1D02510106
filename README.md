@@ -6,7 +6,7 @@
 
 ## 2. Topik dan Cara Menjalankan
 - **Topik:** Klasifikasi Pemilahan Sampah Rumah Tangga (Organik, Anorganik, B3 Rumah Tangga, dan Residu).
-- **Bahasa:** Python 3 (menggunakan modul bawaan `json` dan `os`).
+- **Bahasa:** Python (menggunakan modul bawaan `json` dan `os`).
 - **Cara Menjalankan:**
   1. Buka terminal di folder repository ini.
   2. Jalankan perintah:
