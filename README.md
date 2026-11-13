@@ -1,4 +1,5 @@
 # Sistem Pakar Pemilahan Sampah Rumah Tangga
+
 ## 1. Identitass
 - **Nama:** Asmaul Husnah
 - **NIM:** F1D02510106
@@ -42,13 +43,13 @@
 
 ### Screenshot Program
 1. **Kasus 1 (Sampah Organik):**
-   ![kasus 1](screenshot/sampah_organik.png)
+   ![Kasus 1](screenshot/sampah_organik.png)
 
 2. **Kasus 2 (Sampah Anorganik):**
-   ![kasus 2](screenshot/sampah_anorganik.png)
+   ![Kasus 2](screenshot/sampah_anorganikk.png)
 
 3. **Kasus 3 (Multi Kesimpulan B3 dan Residu):**
-   ![kasus 3](screenshot/sampahB3_dan_residu.png)
+   ![Kasus 3](screenshot/sampahB3_dan_residu.png)
 
 ## 6. Batas Keberlakuan
 Aturan diambil dari regulasi Permen LHK No. 14 Tahun 2021 dan poster edukasi Dinas PUPRKIM Provinsi Bali. Sistem ini hanya untuk membantu pemilahan awal sampah skala rumah tangga (organik, anorganik, B3, dan residu), bukan keputusan akhir untuk limbah industri atau medis.
